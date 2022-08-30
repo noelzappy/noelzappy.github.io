@@ -1,0 +1,14 @@
+{
+  "projects": [
+    {
+      "title": "Built Accounting",
+      "tooltip": "Mobile App for Built Accounting Services",
+      "description": "Built a mobile app for accounting using React Native and Redux.",
+      "client": "Built Accounting",
+      "year": "2021",
+      "images": ["images/built-accounting-mobile.png"],
+      "backgroundImage": "images/built-accounting-mobile.png",
+      "image": "images/built-accounting-mobile.png"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { FaMoon, FaSun } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -10,7 +10,7 @@ import Contact from "../components/Contact";
 const HomeLight = () => {
   const [isDark, setIsDark] = useState(false);
 
-  const handleLabelClick = useCallback(() => {
+  const handleLabelClick = () => {
     if (isDark) {
       localStorage.setItem("theme-color", "light");
       document.querySelector("body").classList.add("light");
@@ -22,11 +22,7 @@ const HomeLight = () => {
       document.querySelector("body").classList.remove("-light");
       setIsDark(true);
     }
-  }, [isDark]);
-
-  useEffect(() => {
-    handleLabelClick();
-  }, [handleLabelClick]);
+  };
 
   return (
     <>

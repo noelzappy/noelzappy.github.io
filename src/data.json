@@ -2,13 +2,49 @@
   "projects": [
     {
       "title": "Built Accounting",
-      "tooltip": "Mobile App for Built Accounting Services",
-      "description": "Built a mobile app for accounting using React Native and Redux.",
-      "client": "Built Accounting",
-      "year": "2021",
-      "images": ["images/built-accounting-mobile.png"],
-      "backgroundImage": "images/built-accounting-mobile.png",
-      "image": "images/built-accounting-mobile.png"
+      "tooltip": "Mobile App",
+      "description": "Built is a financial technology company with the vision of democratizing prosperity for small businesses in Africa. The enterprise deploys web and mobile technologies that help small businesses start, run and grow their businesses. The company’s flagship product is a financial record keeping application that enables small business owners easily keep and manage their financial data for quick data-driven decision making, and also to access a curation of financial services that suit their size and needs. <br/>Working together with the team at Built Accounting, we've been able to successfully developed and deployed both the Android and a iOS applications that is used being by over 7,000 businesses across Africa.",
+      "client": "Built Accounting Services",
+      "images": [
+        " https://i.ibb.co/DK5VGdH/unnamed-2.webp",
+        "https://i.ibb.co/KLPmHwG/unnamed-1.webp",
+        "https://i.ibb.co/wNrDLBw/unnamed.webp"
+      ],
+      "backgroundImage": "https://i.ibb.co/p0QXWrg/460x0w.webp",
+      "image": "https://i.ibb.co/6RVFbnn/1648561610259.jpg",
+      "links": [
+        {
+          "name": "Website",
+          "url": "https://built.africa/"
+        },
+        {
+          "name": "Android App",
+          "url": "https://play.google.com/store/apps/details?id=com.builtaccounting.app"
+        },
+        {
+          "name": "iOS App",
+          "url": "https://apps.apple.com/gh/app/built-accounting/id1547855525"
+        }
+      ]
+    },
+
+    {
+      "title": "The Red Butterfly",
+      "tooltip": "Ecommerce Website",
+      "description": "This is an eCommerce website for a company called The Red Butterfly. They manufacture and sell skincare products ranging from soaps, lotions, creams, and oils that improve the quality of your skin by removing dark spots and smoothening skin and tone. The website includes an eCommerce and online payment integration.",
+      "client": "The Red Butterfly Beauty Spa",
+      "images": [
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1008400194462658560/profile/projects/files/77b1dbd8-e913-4f79-b339-3e95f2d6c884",
+        "https://www.upwork.com/att/download/portfolio/persons/uid/1008400194462658560/profile/projects/files/f67f7ec7-94fb-484a-9b3a-2ec24f718f09"
+      ],
+      "backgroundImage": "https://upwork-usw2-prod-agora-file-storage.s3.us-west-2.amazonaws.com/profile/portfolio/thumbnail/57ea61ba61dcad190b9408e77782256a?response-content-disposition=inline%3B%20filename%3D%22image_large%22%3B%20filename%2A%3Dutf-8%27%27image_large&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDz9zZTiLNDciVYPURDRPBBw3VyuISoNux5s1G3Xjk3RwIgXM1r7wAEyj4Ed9uXym9GHPURhqRPkWliDeciVR44BrUqzQQIUBAAGgw3Mzk5MzkxNzM4MTkiDHvDEW9x3fjiVz0fYiqqBH6pclSdrB34zt%2BdWXvbUfeQUkTHaZgRIwBKV8OcMv6pqkcdTlRY%2BeBaFMdljEFXcBmO6wSD42HogMh1dh8jEDA04%2BE12z60G%2FItVd8tYFQUPj%2F%2Fs196H0g1JLYiva7Br4aOdQ7JG9R0mPVT1hbJ%2F1yUTtIXKWvidm%2BBdjzw6VcYlm2un37SNcM8eL8nhy9708Ee8zoT2Nvrk3gcWz2jpyN3IfdDwxSP8fp%2FmmVRuFJkbkGPxZKU0ph5BSIJoSJeamCOFrdHGzpDFoQzLntMvk9wAVgdZwb5%2BaVfDGX2AqSqrgUah3v%2FGviP0NniuIkzSjTa4dnsXXIbQ4YF0XkQcjy%2F010hybV9i48lsm8CpYuGqwk9GJCVEONv5CtgxRGopoT1Sgv89kgPpWdRbAjzDcdzyM4zSqG3VE%2B1fMekrYBJgSs3Owq7JsEzpFSBNGCGcGam0UbdQSsXw2C5zu1sziWALxpxV3fvb5anfFbUN6xDdwnUCWVgQo1YHWq33h%2FrAexPF46%2FzTIC42h9QjtCjSMUpmIm3fd1NvfpemQHhf90oNVpJfrer9Z%2BHNdjRIRJfj37mHSMBVmDxq%2Fd4Mn7NOGKykyzXnApRPaNoeqrLcqFDuOPtf0QhBy1SktEWEG%2BWoa6hqdWSR%2Bz7OJyu9Y75Sl5ICVoOiq%2FqHEdaqQodlkTEC01xlREvb7r1DzU1Kxt6tz1Ln0iyNHy19EAMgOkR%2F90R4NaCimeGRDHMOSgupgGOqcBS7fhTs5iaPAaCbraRk2sm2cSIMETFzZesZFvKgsNefQVMPqDKsglLth9Lo7Un2j8PMVXeUaZ1aBxN3FOaj3WwrWbIzZJOSWCnnxKvUHzdwM%2BrpNlfD17mt7OY8Bnl0Pccmu9h6o9IIzyWP689ZmAX69xVUHnXtrWU3WbMPb%2F9W9hne1FDOHbf7BfgpNxZxFbaadiFtC9NFgsmBX4pKIQbEnNX5GHdcI%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220831T004339Z&X-Amz-SignedHeaders=host&X-Amz-Expires=900&X-Amz-Credential=ASIA2YR6PYW54ZH5KL4O%2F20220831%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Signature=a30fb1bbda7397c5091a081c48696f22e95c83d29191179a1a4b3ea291de4b4e",
+      "image": "https://www.upwork.com/att/download/portfolio/persons/uid/1008400194462658560/profile/projects/files/a8fc238b-1188-4572-a6eb-f3a3451311ae",
+      "links": [
+        {
+          "name": "Website",
+          "url": "https://theredbutterflygh.com/"
+        }
+      ]
     }
   ]
 }

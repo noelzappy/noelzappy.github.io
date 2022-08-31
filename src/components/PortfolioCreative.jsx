@@ -46,19 +46,23 @@ const Portfolio = () => {
                                 src={project.image}
                                 alt="Details"
                                 data-tip
-                                data-for="detail"
+                                data-for={`detail${index}`}
                                 onClick={() => {
                                   setSelectedProject(project);
                                   setShowModal(true);
                                 }}
+                                style={{
+                                  borderRadius: "15px",
+                                }}
                               />
 
                               <ReactTooltip
-                                id="detail"
+                                id={`detail${index}`}
                                 place="bottom"
                                 type="light"
                                 effect="float"
                                 className="tooltip-wrapper"
+                                key={index.toString()}
                               >
                                 <div>
                                   <h5>{project.title}</h5>
@@ -123,13 +127,22 @@ const Portfolio = () => {
                         <span className="first">Client</span>
                         <span>{selectedProject.client}</span>
                       </li>
+                      <li>
+                        <span className="first">Launch Project </span>
+                        {selectedProject.links.map((link, index) => {
+                          return (
+                            <>
+                              <a href={link.url} key={index.toString()}>
+                                <span>{link.name}</span>
+                              </a>
+                              <br />
+                            </>
+                          );
+                        })}
+                      </li>
 
                       <li>
-                        <span className="first">Date</span>
-                        <span>{selectedProject.year}</span>
-                      </li>
-                      <li>
-                        <span className="first">Follow Me</span>
+                        <span className="first">Contact Me</span>
                         <Social />
                         {/* END SOCIAL SHARE */}
                       </li>

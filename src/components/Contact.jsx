@@ -20,10 +20,26 @@ const Contact = () => {
         e.target,
         "user_VqE10PjT4j0SPNZTrxml4"
       )
-      .then((res) => {})
-      .catch((err) => {});
+      .then((res) => {
+        alert("Message sent successfully");
+        e.target.reset();
+      })
+      .catch((err) => {
+        alert("Message failed to send");
+      });
+      
 
-    e.target.reset();
+    // emailjs
+    //   .sendForm(
+    //     "service_o9ywi4t",
+    //     "template_9l9dwjo",
+    //     e.target,
+    //     "user_VqE10PjT4j0SPNZTrxml4"
+    //   )
+    //   .then((res) => {})
+    //   .catch((err) => {});
+
+    // e.target.reset();
   }
 
   return (

@@ -2,12 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { FaMoon, FaSun } from "react-icons/fa";
 import { Link } from "react-router-dom";
-// import Home from "../components/Home";
-// import About from "../components/About";
-// import Portfolio from "../components/PortfolioCreative";
-// import Contact from "../components/Contact";
 import Config from "../config";
-import Components from "../components";
 
 const HomeLight = () => {
   const [isDark, setIsDark] = useState(false);

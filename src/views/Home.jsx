@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { FaMoon, FaSun } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -23,6 +23,14 @@ const HomeLight = () => {
       setIsDark(true);
     }
   };
+
+  useEffect(() => {
+    const theme = localStorage.getItem("theme-color");
+    if (theme === "dark") {
+      document.querySelector("body").classList.add("dark");
+      setIsDark(true);
+    }
+  }, [isDark]);
 
   return (
     <>

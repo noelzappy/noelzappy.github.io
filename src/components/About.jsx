@@ -64,6 +64,12 @@ const About = () => {
                     <span>Freelance:</span>Available
                   </p>
                 </li>
+
+                <li>
+                  <p>
+                    <span>Country:</span>Ghana
+                  </p>
+                </li>
               </ul>
               {/* END UL */}
             </div>

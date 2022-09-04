@@ -2,7 +2,7 @@ import Home from "../components/Home";
 import About from "../components/About";
 import Portfolio from "../components/PortfolioCreative";
 import Contact from "../components/Contact";
-import Resume from "../components/Resume";
+// import Resume from "../components/Resume";
 
 const Config = {
   menu: [
@@ -26,33 +26,33 @@ const Config = {
       link: "/contact",
       icon: "mail",
     },
-    {
-      name: "Resume",
-      link: "/resume",
-      icon: "briefcase",
-    },
+    // {
+    //   name: "Resume",
+    //   link: "/resume",
+    //   icon: "briefcase",
+    // },
   ],
   pages: [
     {
-          name: "Home",
-            component: Home,
+      name: "Home",
+      component: Home,
     },
     {
-        name: "About",
-        component: About,
+      name: "About",
+      component: About,
     },
     {
-        name: "Portfolio",
-        component: Portfolio,
+      name: "Portfolio",
+      component: Portfolio,
     },
     {
-        name: "Contact",
-        component: Contact,
+      name: "Contact",
+      component: Contact,
     },
-    {
-        name: "Resume",
-        component: Resume,
-    },
+    // {
+    //     name: "Resume",
+    //     component: Resume,
+    // },
   ],
 };
 

@@ -132,7 +132,13 @@ const Portfolio = () => {
                         {selectedProject.links.map((link, index) => {
                           return (
                             <>
-                              <a href={link.url} key={index.toString()}>
+                              <a
+                                href={link.url}
+                                key={index.toString()}
+                                className="textLabel"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
                                 <span>{link.name}</span>
                               </a>
                               <br />

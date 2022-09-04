@@ -27,7 +27,7 @@ const HomeLight = () => {
       document.querySelector("body").classList.add("dark");
       setIsDark(true);
     }
-  }, [isDark]);
+  }, []);
 
   return (
     <>

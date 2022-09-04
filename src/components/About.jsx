@@ -29,12 +29,12 @@ const About = () => {
                 I am a hardworking programmer offering wide-ranging expertise
                 and 4+ years of industry experience. I have background in
                 testing, evaluating, designing, and implementing software
-                solutions. Specializing in the Python, Java, and JavaScript
-                programming languages. I am Able to architect, and enhance
-                highly scalable, real-time systems, by leveraging best-in-class
-                tools. I exercises judgment in determining and recommending
-                designs based on business objectives, timelines, and resource
-                constraints.
+                solutions. Specializing in the Python, Dart, Java, and
+                JavaScript programming languages. I am Able to architect, and
+                enhance highly scalable, real-time systems, by leveraging
+                best-in-class tools. I exercises judgment in determining and
+                recommending designs based on business objectives, timelines,
+                and resource constraints.
               </p>
               <div className="tokyo_tm_button">
                 <button onClick={toggleModal} className="ib-button">

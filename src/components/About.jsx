@@ -29,12 +29,12 @@ const About = () => {
                 I am a hardworking programmer offering wide-ranging expertise
                 and 4+ years of industry experience. I have background in
                 testing, evaluating, designing, and implementing software
-                solutions. Specializing in the Python, Dart, Java, and
-                JavaScript programming languages. I am Able to architect, and
-                enhance highly scalable, real-time systems, by leveraging
-                best-in-class tools. I exercises judgment in determining and
-                recommending designs based on business objectives, timelines,
-                and resource constraints.
+                solutions. I specialize in the Dart/Flutter, Java, and
+                JavaScript programming languages. I can architect, and enhance
+                highly scalable, real-time software solutions by leveraging
+                best-in-class tools. I am an expert in determining and
+                recommending software designs based on business objectives,
+                timelines, and resource constraints.
               </p>
               <div className="tokyo_tm_button">
                 <button onClick={toggleModal} className="ib-button">
@@ -148,6 +148,21 @@ const About = () => {
                       </div>
                     </div>
 
+                    <div className="progress_inner" data-value="80">
+                      <span>
+                        <span className="label">Dart/Flutter</span>
+                        <span className="number">80%</span>
+                      </span>
+                      <div className="background">
+                        <div className="bar">
+                          <div
+                            className="bar_in"
+                            style={{ width: 80 + "%" }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
                     <div className="progress_inner" data-value="99">
                       <span>
                         <span className="label">HTML</span>
@@ -166,7 +181,7 @@ const About = () => {
                     <div className="progress_inner" data-value="80">
                       <span>
                         <span className="label">CSS</span>
-                        <span className="number">80%</span>
+                        <span className="number">90%</span>
                       </span>
                       <div className="background">
                         <div className="bar">

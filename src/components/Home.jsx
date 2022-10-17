@@ -19,12 +19,25 @@ const Home = () => {
           <div className="details">
             <h3 className="name">Emmanuel Yeboah</h3>
             <p className="job">
-              Full stack developer with over four years of professional
-              experience developing backend and frontend applications using
-              Javascript, Java, and Dart. Able to architect, and enhance highly
-              scalable systems, by leveraging best-in-class tools. Exercises
-              judgment in determining and recommending designs based on business
-              objectives, timelines, and resource constraints.
+              I'm a Full stack developer with over four years of professional
+              experience developing backend and frontend (Web and Mobile)
+              applications using Javascript, Java, and Dart/Flutter. I can
+              architect, and enhance highly scalable systems, by leveraging
+              best-in-class tools. I also exercise judgment in determining and
+              recommending software designs based on business objectives,
+              timelines, and resource constraints.
+            </p>
+            <p
+              onClick={() => {
+                const link = document.createElement("a");
+                link.href = "mailto:noelzappy@gmail.com";
+                link.target = "_blank";
+                link.click();
+              }}
+              className="job"
+              style={{ cursor: "pointer" }}
+            >
+              noelzappy@gmail.com
             </p>
 
             {/* END JOB */}

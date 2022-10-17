@@ -26,11 +26,6 @@ const Config = {
       link: "/contact",
       icon: "mail",
     },
-    // {
-    //   name: "Resume",
-    //   link: "/resume",
-    //   icon: "briefcase",
-    // },
   ],
   pages: [
     {

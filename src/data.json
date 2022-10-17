@@ -154,6 +154,25 @@
           "url": "https://inspect.mapthis.site/"
         }
       ]
+    },
+    {
+      "title": "Tipme ",
+      "tooltip": "Tipping App",
+      "description": "This is one of the complex apps I have worked on so far. I built the backend using NodeJs and the Super Admin panel with Next.Js and the mobile app with a combination of native development using Java and React Native for the interface. The apps is one that allows street musicians to get discovered by nearby audience who has the app installed and allows these audiences to tip/donate to them via the app. It depends very much on iBeacon to achieve the discovery of performers and their approximate locations. The app also allows users to create events/performances that are broadcasted via iBeacon so they are discovered by nearby Givers.",
+      "client": "Leonardo Inventions",
+      "images": [],
+      "backgroundImage": "https://i.ibb.co/kHGDg4K/TIPME2.png",
+      "image": "https://i.ibb.co/kHGDg4K/TIPME2.png",
+      "links": [
+        {
+          "name": "Website (Not Live)",
+          "url": "https://tipme-app.com"
+        },
+        {
+          "name": "Android App",
+          "url": "https://play.google.com/store/apps/details?id=com.tipmeapp.tipme"
+        }
+      ]
     }
   ]
 }

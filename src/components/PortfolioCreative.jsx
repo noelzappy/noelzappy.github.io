@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import SimpleReactLightbox from "simple-react-lightbox";
 import ReactTooltip from "react-tooltip";
@@ -27,6 +27,10 @@ const Portfolio = () => {
     return array;
   };
 
+  const getData = useMemo(() => {
+    return shuffle(data.projects);
+  }, [data]);
+
   return (
     <>
       <SimpleReactLightbox>
@@ -50,7 +54,7 @@ const Portfolio = () => {
               <div className="list_wrapper">
                 <TabPanel>
                   <ul className="portfolio_list">
-                    {shuffle(data.projects).map((project, index) => {
+                    {getData.map((project, index) => {
                       return (
                         <li
                           data-aos="fade-right"

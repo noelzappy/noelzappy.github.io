@@ -5,11 +5,7 @@
       "tooltip": "Mobile App",
       "description": "Built is a financial technology company with the vision of democratizing prosperity for small businesses in Africa. The enterprise deploys web and mobile technologies that help small businesses start, run and grow their businesses. The company’s flagship product is a financial record keeping application that enables small business owners easily keep and manage their financial data for quick data-driven decision making, and also to access a curation of financial services that suit their size and needs.  Working together with the team at Built Accounting, we've been able to successfully developed and deployed both the Android and a iOS applications that is used being by over 7,000 businesses across Africa.",
       "client": "Built Accounting Services",
-      "images": [
-        " https://i.ibb.co/DK5VGdH/unnamed-2.webp",
-        "https://i.ibb.co/KLPmHwG/unnamed-1.webp",
-        "https://i.ibb.co/wNrDLBw/unnamed.webp"
-      ],
+      "images": [],
       "backgroundImage": "https://i.ibb.co/bzMKpXy/Finance-App.png",
       "image": "https://i.ibb.co/bzMKpXy/Finance-App.png",
       "links": [
@@ -136,6 +132,26 @@
         {
           "name": "iOS App",
           "url": "https://apps.apple.com/bw/app/ejuma-business-app/id1590122096"
+        }
+      ]
+    },
+
+    {
+      "title": "Inspect.MapThis.Site",
+      "tooltip": "Drone Inspection App",
+      "description": "A cloud-based app that allows users to inspect to inspect transmission towers, wind turbines, solar panels, and other structures using drones. The app allows annotating such images the drones have taken of these structures and also generation of comprehensive reports on the data gathered. The app was made with React for the frontend and NodeJS for the backend. ",
+      "client": "Usnatek- Mapthis.site",
+      "images": [],
+      "backgroundImage": "https://i.ibb.co/gg0rzNb/mapthis.png",
+      "image": "https://i.ibb.co/gg0rzNb/mapthis.png",
+      "links": [
+        {
+          "name": "Company Website",
+          "url": "https://mapthis.site/inspection-reports-for-drone-inspections/"
+        },
+        {
+          "name": "Web App",
+          "url": "https://inspect.mapthis.site/"
         }
       ]
     }

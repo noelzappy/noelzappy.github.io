@@ -9,8 +9,6 @@ const Routes = () => {
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
-          {/*     <Route path="/home-light" component={HomeLight} />
-  <Route path="/rtl-home-light" component={RtlHomeLight} />*/}
           <Route component={NotFound} />
         </Switch>
       </Router>

@@ -10,6 +10,23 @@ const Portfolio = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
 
+  const shuffle = (array) => {
+    let currentIndex = array.length,
+      randomIndex;
+    while (currentIndex !== 0) {
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+
+      // And swap it with the current element.
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex],
+        array[currentIndex],
+      ];
+    }
+
+    return array;
+  };
+
   return (
     <>
       <SimpleReactLightbox>
@@ -33,7 +50,7 @@ const Portfolio = () => {
               <div className="list_wrapper">
                 <TabPanel>
                   <ul className="portfolio_list">
-                    {data.projects.map((project, index) => {
+                    {shuffle(data.projects).map((project, index) => {
                       return (
                         <li
                           data-aos="fade-right"

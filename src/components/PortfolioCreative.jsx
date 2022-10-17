@@ -29,7 +29,7 @@ const Portfolio = () => {
 
   const getData = useMemo(() => {
     return shuffle(data.projects);
-  }, [data]);
+  }, []);
 
   return (
     <>

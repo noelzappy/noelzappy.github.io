@@ -25,9 +25,9 @@
     },
 
     {
-      "title": "Alvi Beauty Services Ltd.",
-      "tooltip": "Beauty Services Provider's App",
-      "description": "A beauty service booking platform that allows users to book beauty services from the comfort of their homes. The system features four mobile app (two for iOS and two for Android) and a web dashboard for service providers as well as a super admin dashboard for the company. There''s a web version for users to book services as well.  The system is currently in development and will be released to the public soon. However a public testing build is available for download.",
+      "title": "Alvi Salon.",
+      "tooltip": "Alvi Beauty Services Ltd.",
+      "description": "A beauty service booking platform that allows users to book beauty services from the comfort of their homes. The system features four mobile app (two for iOS and two for Android) and a web dashboard for service providers as well as a super admin dashboard for the company. There''s a web version for users to book services as well.",
       "client": "Alvi Beauty Services LTD.",
       "images": [],
       "backgroundImage": "https://i.ibb.co/56btr6w/alvibeaty-SERVICE.png",
@@ -35,51 +35,24 @@
       "links": [
         {
           "name": "Website",
-          "url": "https://alvibeauty.com/"
+          "url": "https://partner.alvibeauty.com/"
         },
 
         {
           "name": "Android App",
           "url": "https://play.google.com/store/apps/details?id=com.beautypoisk.salon"
+        },
+        {
+          "name": "iOS App",
+          "url": "https://apps.apple.com/us/app/alvi-salon/id1639258212"
         }
       ]
     },
 
     {
-      "title": "The Red Butterfly",
-      "tooltip": "Ecommerce Website",
-      "description": "This is an eCommerce website for a company called The Red Butterfly. They manufacture and sell skincare products ranging from soaps, lotions, creams, and oils that improve the quality of your skin by removing dark spots and smoothening skin and tone. The website includes an eCommerce and online payment integration.",
-      "client": "The Red Butterfly Beauty Spa",
-      "images": [],
-      "backgroundImage": "https://i.ibb.co/1TQdLD3/theredbutter.png",
-      "image": "https://i.ibb.co/1TQdLD3/theredbutter.png",
-      "links": [
-        {
-          "name": "Website",
-          "url": "https://theredbutterflygh.com/"
-        }
-      ]
-    },
-    {
-      "title": "Geofrelin Ltd.",
-      "tooltip": "Wood/Lumber Website",
-      "description": "A ccompany profile for Geofrelin Ltd. The website features an eCommerce functionality where users are able to request quotes from the company.",
-      "client": "Geofrelin LTD.",
-      "images": [],
-      "backgroundImage": "https://i.ibb.co/Tv1SJhj/geofrelin.png",
-      "image": "https://i.ibb.co/Tv1SJhj/geofrelin.png",
-      "links": [
-        {
-          "name": "Website",
-          "url": "https://geofrelin.com/"
-        }
-      ]
-    },
-
-    {
-      "title": "Alvi Beauty Services Ltd.",
-      "tooltip": "Beauty Services User's App",
-      "description": "A beauty service booking platform that allows users to book beauty services from the comfort of their homes. The system features four mobile app (two for iOS and two for Android) and a web dashboard for service providers as well as a super admin dashboard for the company. There''s a web version for users to book services as well. The system is currently in development and will be released to the public soon. However a public testing build is available for download.",
+      "title": "Alvi Beauty",
+      "tooltip": "Alvi Beauty Services Ltd.",
+      "description": "A beauty service booking platform that allows users to book beauty services from the comfort of their homes. The system features four mobile app (two for iOS and two for Android) and a web dashboard for service providers as well as a super admin dashboard for the company. There''s a web version for users to book services as well.",
       "client": "Alvi Beauty Services LTD.",
       "images": [],
       "backgroundImage": "https://i.ibb.co/s23G1rC/alvibeaty-USER.png",
@@ -92,6 +65,10 @@
         {
           "name": "Android App",
           "url": "https://play.google.com/store/apps/details?id=com.beautypoisk.user"
+        },
+        {
+          "name": "iOS App",
+          "url": "https://apps.apple.com/us/app/alvi-beauty/id1640579339"
         }
       ]
     },

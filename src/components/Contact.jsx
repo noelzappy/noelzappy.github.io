@@ -1,45 +1,47 @@
-import React from "react";
-// import { useState } from "react";
-// import ReactMapGL from "react-map-gl";
+import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import { toast } from "react-toastify";
 
 const Contact = () => {
-  // const [viewport, setViewport] = useState({
-  //   latitude: 40.712776,
-  //   longitude: -74.005974,
-  //   zoom: 8,
-  // });
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [isSending, setIsSending] = useState(false);
 
-  function sendEmail(e) {
-    e.preventDefault();
+  const clearVals = () => {
+    setName("");
+    setEmail("");
+    setMessage("");
+  };
 
+  function sendEmail() {
+    setIsSending(true);
+    const templateParams = {
+      from_name: name,
+      message,
+      reply_to: email,
+    };
+
+    // Replace the service ID, template ID, and user ID with your values.
+    // You can find them in your emailjs account.
+    // You should probably store them in environment variables.
     emailjs
-      .sendForm(
+      .send(
         "service_o9ywi4t",
         "template_9l9dwjo",
-        e.target,
+        templateParams,
         "user_VqE10PjT4j0SPNZTrxml4"
       )
       .then((res) => {
-        alert("Message sent successfully");
-        e.target.reset();
+        toast.success("Message sent successfully");
+        clearVals();
       })
       .catch((err) => {
-        alert("Message failed to send");
+        toast.error("Something went wrong");
+      })
+      .finally(() => {
+        setIsSending(false);
       });
-      
-
-    // emailjs
-    //   .sendForm(
-    //     "service_o9ywi4t",
-    //     "template_9l9dwjo",
-    //     e.target,
-    //     "user_VqE10PjT4j0SPNZTrxml4"
-    //   )
-    //   .then((res) => {})
-    //   .catch((err) => {});
-
-    // e.target.reset();
   }
 
   return (
@@ -54,46 +56,56 @@ const Contact = () => {
           </div>
         </div>
         {/* END TITLE */}
-        {/*
-        <div className="map_wrap">
-          <div className="map">
-            <ReactMapGL
-              mapStyle={"mapbox://style/mapbox/dark-v9"}
-              mapboxApiAccessToken="pk.eyJ1IjoiYmF5YXppZGgiLCJhIjoiY2tvemdwc3ByMDg1YzJubzQxcDR0cDR3dyJ9.s1zXEb5OPqgBDcmupj3GBA"
-              {...viewport}
-              onViewportChange={(nextViewport) => setViewport(nextViewport)}
-            />
-          </div>
-        </div> */}
-        {/* MENU WRAP */}
 
         <div className="fields">
-          <form className="contact_form" onSubmit={sendEmail}>
+          <div className="contact_form">
             <div className="first">
               <ul>
                 <li>
-                  <input type="text" name="name" placeholder="Name" />
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Your Name"
+                    onChange={(e) => setName(e.target.value)}
+                    value={name}
+                  />
                 </li>
                 {/* END FIRST NAME */}
 
                 <li>
-                  <input type="email" name="user_email" placeholder="Email" />
+                  <input
+                    type="email"
+                    name="user_email"
+                    placeholder="Email"
+                    onChange={(e) => setEmail(e.target.value)}
+                    value={email}
+                  />
                 </li>
                 {/* END EMAIL */}
 
                 <li>
-                  <textarea name="message" placeholder="Message"></textarea>
+                  <textarea
+                    name="message"
+                    placeholder="Message"
+                    onChange={(e) => setMessage(e.target.value)}
+                    value={message}
+                  ></textarea>
                 </li>
                 {/* END SUBJECT MESSAGE */}
               </ul>
             </div>
             <div className="tokyo_tm_button">
-              <button type="submit" className="ib-button">
-                Send Message
+              <button
+                type="submit"
+                className="ib-button"
+                disabled={!name || !email || !message || isSending}
+                onClick={sendEmail}
+              >
+                {isSending ? "Sending..." : "Send Message"}
               </button>
             </div>
             {/* END SUBMIT BUTTON */}
-          </form>
+          </div>
           {/* END FORM */}
         </div>
         {/* END FIELDS */}

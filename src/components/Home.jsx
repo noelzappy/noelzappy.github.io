@@ -30,10 +30,7 @@ const Home = () => {
               architect, enhance, and recommend software designs based on
               business objectives, timelines, and resource constraints, and
               strive to deliver high-quality work while staying up-to-date with
-              the latest tools and technologies in the industry. I enjoy
-              problem-solving and have successfully developed complex software
-              for organizations by actively listening to and understanding their
-              ideas.
+              the latest tools and technologies in the industry.
             </p>
             <p
               onClick={() => {

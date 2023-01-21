@@ -19,18 +19,14 @@ const Home = () => {
           <div className="details">
             <h3 className="name">Emmanuel Yeboah</h3>
             <p className="job">
-              As a Full Stack developer with over four years of professional
-              experience, I have a strong skillset in Javascript and Java. I am
-              proficient in using React Native and ReactJS to build efficient
-              and user-friendly mobile and web applications and have a solid
-              understanding of REST APIs for seamless and dynamic user
-              experiences. My experience in building backend APIs using Node.js
-              allows me to efficiently handle data flow and interactions between
-              the front end and the back end of a project. I am able to
-              architect, enhance, and recommend software designs based on
-              business objectives, timelines, and resource constraints, and
-              strive to deliver high-quality work while staying up-to-date with
-              the latest tools and technologies in the industry.
+              Full Stack developer with 4+ years of experience, strong in
+              Javascript and Java. Proficient in React Native and ReactJS,
+              skilled in building efficient mobile and web applications. Solid
+              understanding of REST APIs, experienced in Node.js for backend API
+              development. Able to architect, enhance and recommend software
+              designs, deliver high-quality work, and stay current with industry
+              tools and technologies. Strong problem-solving skills and ability
+              to understand and develop software for organizations.
             </p>
             <p
               onClick={() => {

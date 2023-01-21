@@ -26,15 +26,21 @@ const About = () => {
           <div className="description_inner">
             <div className="left">
               <p>
-                I am a hardworking programmer offering wide-ranging expertise
-                and 4+ years of industry experience. I have background in
-                testing, evaluating, designing, and implementing software
-                solutions. I specialize in the Dart/Flutter, Java, and
-                JavaScript programming languages. I can architect, and enhance
-                highly scalable, real-time software solutions by leveraging
-                best-in-class tools. I am an expert in determining and
-                recommending software designs based on business objectives,
-                timelines, and resource constraints.
+                As a Full Stack developer with over four years of professional
+                experience, I have a strong skillset in Javascript and Java. I
+                am proficient in using React Native and ReactJS to build
+                efficient and user-friendly mobile and web applications and have
+                a solid understanding of REST APIs for seamless and dynamic user
+                experiences. My experience in building backend APIs using
+                Node.js allows me to efficiently handle data flow and
+                interactions between the front end and the back end of a
+                project. I am able to architect, enhance, and recommend software
+                designs based on business objectives, timelines, and resource
+                constraints, and strive to deliver high-quality work while
+                staying up-to-date with the latest tools and technologies in the
+                industry. I enjoy problem-solving and have successfully
+                developed complex software for organizations by actively
+                listening to and understanding their ideas.
               </p>
               <div className="tokyo_tm_button">
                 <button onClick={toggleModal} className="ib-button">

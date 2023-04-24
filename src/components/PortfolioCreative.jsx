@@ -155,7 +155,7 @@ const Portfolio = () => {
                                 href={link.url}
                                 key={index.toString()}
                                 className="textLabel"
-                                target="_blank"
+                                target={link.url !== "#" ? "_blank" : "_self"}
                                 rel="noreferrer"
                               >
                                 <span>{link.name}</span>

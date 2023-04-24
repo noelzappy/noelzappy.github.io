@@ -83,8 +83,8 @@
       "image": "https://i.ibb.co/TDXS4kp/getall.png",
       "links": [
         {
-          "name": "Website",
-          "url": "https://getallgh.com/home"
+          "name": "Website (Offline)",
+          "url": "#"
         }
       ]
     },
@@ -99,13 +99,10 @@
       "image": "https://i.ibb.co/VvfrPGK/fastercredit.png",
       "links": [
         {
-          "name": "Website",
-          "url": "hhttps://ejuma.africa"
+          "name": "Website (Offline)",
+          "url": "#"
         },
-        {
-          "name": "Android App",
-          "url": "https://play.google.com/store/apps/details?id=com.ejuma.africa"
-        },
+
         {
           "name": "iOS App",
           "url": "https://apps.apple.com/bw/app/ejuma-business-app/id1590122096"
@@ -148,6 +145,21 @@
         {
           "name": "Android App",
           "url": "https://play.google.com/store/apps/details?id=com.tipmeapp.tipme"
+        }
+      ]
+    },
+    {
+      "title": "Remora Landing Page",
+      "tooltip": "Remora Bank Landing Page",
+      "description": "The landing page for the Remora Bank launch waitlist.",
+      "client": "Remora Bank LTD.",
+      "images": [],
+      "backgroundImage": "https://i.ibb.co/Trvzt6X/Remora-Bank.png",
+      "image": "https://i.ibb.co/Trvzt6X/Remora-Bank.png",
+      "links": [
+        {
+          "name": "Website",
+          "url": "https://remora.vercel.app/"
         }
       ]
     }

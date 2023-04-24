@@ -162,6 +162,22 @@
           "url": "https://remora.vercel.app/"
         }
       ]
+    },
+
+    {
+      "title": "GOT",
+      "tooltip": "Game of Thrones",
+      "description": "A proof of concept project that consumes the demo Game of Thrones API",
+      "client": "Zappy",
+      "images": [],
+      "backgroundImage": "https://i.ibb.co/ZTRCcDH/bg.jpg",
+      "image": "https://i.ibb.co/ZTRCcDH/bg.jpg",
+      "links": [
+        {
+          "name": "Website",
+          "url": "https://got-demo.vercel.app/"
+        }
+      ]
     }
   ]
 }

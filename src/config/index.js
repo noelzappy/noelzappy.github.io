@@ -44,10 +44,6 @@ const Config = {
       name: "Contact",
       component: Contact,
     },
-    // {
-    //     name: "Resume",
-    //     component: Resume,
-    // },
   ],
 };
 

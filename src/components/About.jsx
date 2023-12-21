@@ -73,7 +73,7 @@ const About = () => {
 
                 <li>
                   <p>
-                    <span>Country:</span>Ghana
+                    <span>Country:</span> Space
                   </p>
                 </li>
               </ul>

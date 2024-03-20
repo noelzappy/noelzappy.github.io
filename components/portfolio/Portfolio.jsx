@@ -10,8 +10,8 @@ import ModalOne from "./modal/ModalOne";
 import { Tooltip as ReactTooltip } from "react-tooltip";
 import portfolioData from "@/data/portfolioData";
 
-const renderTab = (category) => {
-  const data = portfolioData.filter((item) => item.cat === category);
+const renderTab = (category, setSelectedProject) => {
+  const data = portfolioData.filter((item) => item.cat.includes(category));
   return (
     <TabPanel>
       <ul
@@ -19,7 +19,7 @@ const renderTab = (category) => {
         data-aos="fade-right"
         data-aos-duration="1200"
       >
-        {data.map((item, index) => (
+        {data.map((item) => (
           <li key={item.id}>
             <div className="inner">
               <div className="entry tokyo_tm_portfolio_animation_wrap">
@@ -113,10 +113,10 @@ const Portfolio = () => {
                 ))}
               </ul>
             </TabPanel>
-            {renderTab("web")}
-            {renderTab("mobile")}
-            {renderTab("fullstack")}
-            {renderTab("wordpress")}
+            {renderTab("web", setSelectedProject)}
+            {renderTab("mobile", setSelectedProject)}
+            {renderTab("fullstack", setSelectedProject)}
+            {renderTab("wordpress", setSelectedProject)}
             {/* END ALL PORTFOLIO */}
           </div>
           {/* END LIST WRAPPER */}

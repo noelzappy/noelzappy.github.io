@@ -4,10 +4,10 @@ module.exports = [
   {
     id: 1,
     title: "Built Accounting",
-    img: "/img/portfolio/builtapp.png",
+    img: "/img/portfolio/_builtapp.png",
     mainImage: "/img/portfolio/_builtapp.png",
     category: "Mobile App",
-    cat: "mobile",
+    cat: ["mobile"],
     images: ["/img/portfolio/_builtapp.png"],
     poster: "Emmanuel Yeboah",
     client: "Built Financial Technologies",
@@ -26,6 +26,7 @@ module.exports = [
         url: "https://apps.apple.com/gh/app/built-accounting/id1547855525",
       },
     ],
+    stack: ["React Native", "Firebase", "Redux"],
     descriptions: (
       <div className="descriptions">
         <p className="bigger">
@@ -61,6 +62,134 @@ module.exports = [
           testament to the app's newfound appeal and usability, as well as its
           ability to truly deliver on Built's vision of democratizing prosperity
           for small businesses across Africa.
+        </p>
+      </div>
+    ),
+  },
+
+  {
+    id: 1,
+    title: "GetAll Handyman",
+    img: "/img/portfolio/_builtapp.png",
+    mainImage: "/img/portfolio/_builtapp.png",
+    category: "Mobile App, Web App",
+    cat: ["mobile", "web"],
+    images: ["/img/portfolio/_builtapp.png"],
+    poster: "Emmanuel Yeboah",
+    client: "GetAll Ghana LTD",
+    date: "27 OCTOBER 2022",
+    links: [
+      {
+        name: "Website(Offline)",
+        url: "#",
+      },
+    ],
+    stack: ["Flutter/Dart", "Firebase", "Firebase Cloud Functions"],
+    descriptions: (
+      <div className="descriptions">
+        <p className="bigger">
+          Taking charge of this innovative on-demand service platform, I
+          embarked on a mission to elevate its mobile app, web app, and Firebase
+          cloud functions. Despite the project not going live due to business
+          constraints, my focus was on enhancing app performance, user
+          experience, and introducing new features to enrich the platform's
+          functionality.
+        </p>
+
+        <p>
+          The existing mobile applications, tailored for iOS and Android, were
+          revamped to offer a seamless user experience. I implemented
+          optimizations to improve performance and responsiveness, ensuring
+          users could easily browse services, view provider profiles and
+          ratings, and book appointments effortlessly. Additionally, I
+          integrated new features to enhance the overall user journey, making it
+          more intuitive and engaging.
+        </p>
+
+        <p>
+          On the web dashboard for service providers, I implemented enhancements
+          to streamline booking management, appointment scheduling, and
+          communication with users. The goal was to provide a user-friendly
+          interface that empowered service providers to efficiently manage their
+          operations and interactions with customers.
+        </p>
+        <p>
+          Furthermore, I worked on Firebase cloud functions and Firebase to
+          optimize backend processes and improve data management. This included
+          implementing new functionalities to enhance system efficiency and
+          reliability.
+        </p>
+
+        <p>
+          While the project faced challenges that prevented it from going live,
+          the improvements made during my tenure laid a solid foundation for
+          future development. The application was poised to revolutionize the
+          service industry in Ghana, offering immense value to both users and
+          service providers.
+        </p>
+      </div>
+    ),
+  },
+
+  {
+    id: 1,
+    title: "GetAll Handyman",
+    img: "/img/portfolio/_builtapp.png",
+    mainImage: "/img/portfolio/_builtapp.png",
+    category: "Mobile App, Web App",
+    cat: ["mobile", "web"],
+    images: ["/img/portfolio/_builtapp.png"],
+    poster: "Emmanuel Yeboah",
+    client: "GetAll Ghana LTD",
+    date: "27 OCTOBER 2022",
+    links: [
+      {
+        name: "Website(Offline)",
+        url: "#",
+      },
+    ],
+    stack: ["Flutter/Dart", "Firebase", "Firebase Cloud Functions"],
+    descriptions: (
+      <div className="descriptions">
+        <p className="bigger">
+          Taking charge of this innovative on-demand service platform, I
+          embarked on a mission to elevate its mobile app, web app, and Firebase
+          cloud functions. Despite the project not going live due to business
+          constraints, my focus was on enhancing app performance, user
+          experience, and introducing new features to enrich the platform's
+          functionality.
+        </p>
+
+        <p>
+          The existing mobile applications, tailored for iOS and Android, were
+          revamped to offer a seamless user experience. I implemented
+          optimizations to improve performance and responsiveness, ensuring
+          users could easily browse services, view provider profiles and
+          ratings, and book appointments effortlessly. Additionally, I
+          integrated new features to enhance the overall user journey, making it
+          more intuitive and engaging.
+        </p>
+
+        <p>
+          On the web dashboard for service providers, I implemented enhancements
+          to streamline booking management, appointment scheduling, and
+          communication with users. The goal was to provide a user-friendly
+          interface that empowered service providers to efficiently manage their
+          operations and interactions with customers.
+        </p>
+        <p>
+          Furthermore, I worked on Firebase cloud functions and Firebase to
+          optimize backend processes and improve data management. This included
+          implementing new functionalities to enhance system efficiency and
+          reliability.
+        </p>
+
+        <p>
+          While the project faced challenges that prevented it from going live,
+          the improvements made during my tenure laid a solid foundation for
+          future development. The application was poised to revolutionize the
+          service industry in Ghana, offering immense value to both users and
+          service providers.
         </p>
       </div>
     ),

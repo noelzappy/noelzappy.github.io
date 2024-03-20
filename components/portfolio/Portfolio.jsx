@@ -35,8 +35,7 @@ const renderTab = (category) => {
                 />
 
                 <ReactTooltip
-                  id={`detail${index}-${item.cat}-tab`}
-                  key={`detail${index}-${item.cat}-tab`}
+                  id={item.title}
                   place="bottom"
                   variant="light"
                   float
@@ -81,7 +80,7 @@ const Portfolio = () => {
                 data-aos="fade-right"
                 data-aos-duration="1200"
               >
-                {portfolioData.map((item, index) => (
+                {portfolioData.map((item) => (
                   <li key={item.id}>
                     <div className="inner">
                       <div className="entry tokyo_tm_portfolio_animation_wrap">
@@ -97,8 +96,7 @@ const Portfolio = () => {
                         />
 
                         <ReactTooltip
-                          id={`data${index}-${item.cat}-main`}
-                          key={`port${index}-${item.cat}-main`}
+                          id={item.title}
                           place="bottom"
                           variant="light"
                           float

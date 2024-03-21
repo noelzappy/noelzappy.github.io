@@ -2,7 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "404 || Tokyo - Personal Portfolio React Nextjs Template",
+  title:
+    "404 || Emmanuel Yeboah (Zappy) - A skilled fullstack software developer",
 };
 const NotFound = () => {
   return (

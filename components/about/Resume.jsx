@@ -24,7 +24,7 @@ const Resume = () => {
           id: 1,
           year: "2024 - NOW",
           institute: "Hubtel",
-          degree: "Software Engineer",
+          degree: "Software Frontend Engineer",
         },
         {
           id: 2,

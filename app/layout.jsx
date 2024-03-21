@@ -34,6 +34,8 @@ const PoppinsFonts = Poppins({
   variable: "--font-poppins",
 });
 
+
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -43,7 +45,7 @@ export default function RootLayout({ children }) {
         <AOSInit />
         <div className="tokyo_tm_all_wrap">
           <ThemeProvider attribute="class">
-            ] <ThemeSwitch />
+            <ThemeSwitch />
             {/* End themeSwicher */}
             {children}
             {/* Main next component pageprops */}

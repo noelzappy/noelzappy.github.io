@@ -184,7 +184,7 @@ module.exports = [
     img: "/img/portfolio/mapthis.png",
     mainImage: "/img/portfolio/mapthis.png",
     category: "Web App",
-    cat: ["web"],
+    cat: ["web", "fullstack"],
     images: ["/img/portfolio/mapthis.png"],
     poster: "Emmanuel Yeboah",
     client: "Usnatek- Mapthis.site",
@@ -237,7 +237,7 @@ module.exports = [
     img: "/img/portfolio/tipme.png",
     mainImage: "/img/portfolio/tipme.png",
     category: "Mobile App, Web App",
-    cat: ["mobile", "web"],
+    cat: ["mobile", "web", "fullstack"],
     images: [
       "/img/portfolio/tipme.png",
       "/img/portfolio/tipme_1.png",
@@ -306,6 +306,262 @@ module.exports = [
           hand. The use of cutting-edge technologies and a user-friendly
           interface makes this app a game-changer for street performers and
           donors alike.
+        </p>
+      </div>
+    ),
+  },
+
+  {
+    id: 6,
+    title: "Alvi Beauty",
+    img: "/img/portfolio/alvibeauty_user.png",
+    mainImage: "/img/portfolio/alvibeauty_user.png",
+    category: "Mobile App",
+    cat: ["mobile", "fullstack"],
+    images: [
+      "/img/portfolio/alvibeauty_user.png",
+      "/img/portfolio/alvibeauty_salon.png",
+    ],
+    poster: "Emmanuel Yeboah",
+    client: "Romarianec Tech. - Ukraine",
+    links: [
+      {
+        name: "Website",
+        url: "https://alvibeauty.com/en",
+      },
+      {
+        name: "User iOS App",
+        url: "https://apps.apple.com/us/app/alvi-beauty/id1640579339",
+      },
+      {
+        name: "User Android App",
+        url: "https://play.google.com/store/apps/details?id=com.beautypoisk.user",
+      },
+      {
+        name: "Salon iOS App",
+        url: "https://apps.apple.com/us/app/alvi-salon/id1639258212",
+      },
+      {
+        name: "Salon Android App",
+        url: "https://play.google.com/store/apps/details?id=com.beautypoisk.salon",
+      },
+    ],
+    videos: [],
+    stack: ["React", "Node.js", "MongoDB", "ExpressJs", "React Native"],
+
+    descriptions: (
+      <div className="descriptions">
+        <p className="bigger">
+          I undertook the development of this comprehensive beauty service
+          booking platform that revolutionizes the way users book beauty
+          services from the comfort of their homes. The system includes four
+          mobile apps (two for iOS and two for Android) tailored for users and
+          service providers, a web dashboard for service providers, and a super
+          admin dashboard for the company. Additionally, there is a web version
+          available for users to book services directly.
+        </p>
+
+        <p>
+          For the backend development, I utilized NodeJs and MongoDB, ensuring a
+          robust and scalable infrastructure to support the platform's
+          functionality. This allowed for efficient management of user data,
+          bookings, and service provider information, ensuring a seamless user
+          experience across all platforms.
+        </p>
+        <p>
+          The mobile app, developed using React Native, offers users an
+          intuitive interface to browse services, book appointments, and manage
+          their bookings. Service providers can use the web dashboard to manage
+          their schedules, accept bookings, and communicate with clients, while
+          the super admin dashboard provides comprehensive oversight of the
+          entire platform, enabling efficient management of users, service
+          providers, and bookings.
+        </p>
+        <p>
+          Overall, this beauty service booking platform provides a convenient
+          and efficient way for users to access beauty services and for service
+          providers to manage their bookings, all through a user-friendly and
+          intuitive interface developed with cutting-edge technologies.
+        </p>
+      </div>
+    ),
+  },
+
+  {
+    id: 7,
+    title: "Alvi Beauty Salon",
+    img: "/img/portfolio/alvibeauty_salon.png",
+    mainImage: "/img/portfolio/alvibeauty_salon.png",
+    category: "Mobile App",
+    cat: ["mobile", "fullstack"],
+    images: ["/img/portfolio/alvibeauty_salon.png"],
+    poster: "Emmanuel Yeboah",
+    client: "Romarianec Tech. - Ukraine",
+    links: [
+      {
+        name: "Website",
+        url: "https://alvibeauty.com/en",
+      },
+      {
+        name: "iOS App",
+        url: "https://apps.apple.com/us/app/alvi-salon/id1639258212",
+      },
+      {
+        name: "Android App",
+        url: "https://play.google.com/store/apps/details?id=com.beautypoisk.salon",
+      },
+    ],
+    videos: [],
+    stack: ["React", "Node.js", "MongoDB", "ExpressJs", "React Native"],
+
+    descriptions: (
+      <div className="descriptions">
+        <p className="bigger">
+          I undertook the development of this comprehensive beauty service
+          booking platform that revolutionizes the way users book beauty
+          services from the comfort of their homes. The system includes four
+          mobile apps (two for iOS and two for Android) tailored for users and
+          service providers, a web dashboard for service providers, and a super
+          admin dashboard for the company. Additionally, there is a web version
+          available for users to book services directly.
+        </p>
+
+        <p>
+          For the backend development, I utilized NodeJs and MongoDB, ensuring a
+          robust and scalable infrastructure to support the platform's
+          functionality. This allowed for efficient management of user data,
+          bookings, and service provider information, ensuring a seamless user
+          experience across all platforms.
+        </p>
+        <p>
+          The mobile app, developed using React Native, offers users an
+          intuitive interface to browse services, book appointments, and manage
+          their bookings. Service providers can use the web dashboard to manage
+          their schedules, accept bookings, and communicate with clients, while
+          the super admin dashboard provides comprehensive oversight of the
+          entire platform, enabling efficient management of users, service
+          providers, and bookings.
+        </p>
+        <p>
+          Overall, this beauty service booking platform provides a convenient
+          and efficient way for users to access beauty services and for service
+          providers to manage their bookings, all through a user-friendly and
+          intuitive interface developed with cutting-edge technologies.
+        </p>
+      </div>
+    ),
+  },
+
+  {
+    id: 8,
+    title: "Ejuma App",
+    img: "/img/portfolio/ejuma.png",
+    mainImage: "/img/portfolio/ejuma.png",
+    category: "Mobile App",
+    cat: ["mobile", "fullstack"],
+    images: ["/img/portfolio/ejuma.png"],
+    poster: "Emmanuel Yeboah",
+    client: "Built Financial Technologies",
+    links: [
+      {
+        name: "iOS App",
+        url: "https://apps.apple.com/bw/app/ejuma-business-app/id1590122096",
+      },
+    ],
+    videos: [],
+    stack: ["Flutter/Dart", "Firebase", "Firebase Cloud Functions"],
+
+    descriptions: (
+      <div className="descriptions">
+        <p className="bigger">
+          As the developer tasked with enhancing the Ejuma App, I leveraged
+          Flutter and Dart to rebuild the mobile and web applications, providing
+          small and medium-sized enterprises (SMEs) with an improved suite of
+          tools for managing debtors, staff, and financing needs. Utilizing
+          Firebase for data storage.
+        </p>
+
+        <p>
+          One of the key enhancements I introduced was optimizing the app's debt
+          collection process. By refining features such as tracking payments,
+          generating invoices, and generating detailed reports on outstanding
+          debts, I enabled SMEs to better manage their cash flow and maintain
+          stronger financial positions.
+        </p>
+        <p>
+          Additionally, I revamped the HR management capabilities of the Ejuma
+          App, enhancing features for recording staff attendance, streamlining
+          recruitment processes, and automating payroll calculations. These
+          improvements empowered businesses to efficiently manage their staffing
+          needs and improve overall operational efficiency.
+        </p>
+        <p>
+          Overall, my enhancements to the Ejuma App transformed it into a
+          powerful and versatile tool for SMEs, offering a holistic solution for
+          managing finances, staffing requirements, and financing needs. By
+          leveraging this innovative application, SMEs can optimize their
+          operations, reduce administrative burdens, and focus on growth and
+          development.
+        </p>
+      </div>
+    ),
+  },
+
+  {
+    id: 9,
+    title: "Built Lite",
+    img: "/img/portfolio/builtlite.png",
+    mainImage: "/img/portfolio/builtlite.png",
+    category: "Mobile App",
+    cat: ["mobile"],
+    images: [
+      "/img/portfolio/builtlite.png",
+      "/img/portfolio/builtlite_1.png",
+      "/img/portfolio/builtlite_2.png",
+      "/img/portfolio/builtlite_3.png",
+    ],
+    poster: "Emmanuel Yeboah",
+    client: "Built Financial Tech.",
+    links: [
+      {
+        name: "Website",
+        url: "https://built.africa/",
+      },
+      {
+        name: "Android App",
+        url: "https://play.google.com/store/apps/details?id=com.builtaccounting.lite",
+      },
+    ],
+    videos: [],
+    stack: ["React Native", "MongoDB"],
+
+    descriptions: (
+      <div className="descriptions">
+        <p className="bigger">
+          I developed Built Lite, a simplified yet powerful tool for tracking
+          income and expenses, using React Native for the mobile app. Built Lite
+          offers users the ability to track sales and expenses even without an
+          internet connection, ensuring that business management remains
+          seamless and uninterrupted. The app is designed to be 100% secure,
+          providing peace of mind for all types of small businesses.
+        </p>
+
+        <p>
+          Key features of Built Lite include its ease of use, allowing users to
+          manage their business and time more efficiently from anywhere,
+          anytime. Users can effortlessly record both cash and credit sales, add
+          customers and suppliers directly from their phone's contact book, and
+          view reports on sales, expenses, and profit. The app also enables
+          users to track collections and payments with reports on debtors and
+          creditors.
+        </p>
+        <p>
+          Built Lite offers a convenient and flexible solution for business
+          management on the go. Users can easily upgrade to the original Built
+          App to experience the full accounting app on both desktop and phone.
+          With Built Lite, users can take control of their business on the fly,
+          making it the go-to solution for secure and efficient business
+          management.
         </p>
       </div>
     ),

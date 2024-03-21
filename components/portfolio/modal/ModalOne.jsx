@@ -33,7 +33,15 @@ const ModalOne = ({ project }) => {
                 <span className="first">Links</span>
                 {project?.links?.map((link) => (
                   <span style={{ display: "block" }}>
-                    <a href={link.url} target="_blank" rel="noreferrer">
+                    <a
+                      href={link.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      style={{
+                        color: "blue",
+                        textDecoration: "underline",
+                      }}
+                    >
                       {link.name}
                     </a>
                   </span>
@@ -41,8 +49,10 @@ const ModalOne = ({ project }) => {
               </li>
 
               <li>
-                <span className="first">Date</span>
-                <span>{project?.date}</span>
+                <span className="first">Tech. Stack</span>
+                {project?.stack?.map((item) => (
+                  <span>{item}, </span>
+                ))}
               </li>
 
               <li>

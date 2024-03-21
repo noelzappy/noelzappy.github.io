@@ -230,4 +230,84 @@ module.exports = [
       </div>
     ),
   },
+
+  {
+    id: 5,
+    title: "Tipme App",
+    img: "/img/portfolio/tipme.png",
+    mainImage: "/img/portfolio/tipme.png",
+    category: "Mobile App, Web App",
+    cat: ["mobile", "web"],
+    images: [
+      "/img/portfolio/tipme.png",
+      "/img/portfolio/tipme_1.png",
+      "/img/portfolio/tipme_2.png",
+    ],
+    poster: "Emmanuel Yeboah",
+    client: "Leonardo Inventions",
+    date: "27 JANUARY 2023",
+    links: [
+      {
+        name: "Website App",
+        url: "https://tipme-app.com",
+      },
+      {
+        name: "Android App",
+        url: "https://play.google.com/store/apps/details?id=com.tipmeapp.tipme",
+      },
+    ],
+    videos: ["https://youtu.be/LMer_U6UtDs"],
+    stack: [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "ExpressJs",
+      "iBeacon",
+      "React Native",
+      "Firebase",
+      "Bluetooth (BLE)",
+    ],
+
+    descriptions: (
+      <div className="descriptions">
+        <p className="bigger">
+          I led the development of a revolutionary app aimed at creating a
+          win-win situation for both street performers and donors. The app,
+          developed using NodeJs and MongoDB for the backend, ReactJs for the
+          web app, and React Native for the mobile app, addresses the common
+          issue of not having small change to give to performers, while also
+          providing performers with a more effective way to collect
+          tips/donations.
+        </p>
+
+        <p>
+          The app works by allowing users to register as either "performers" or
+          "givers". When a performer starts a show, nearby givers receive push
+          notifications with basic information about the performer and the show.
+          Givers can then decide whether to tip the performer, with predefined
+          tipping amounts available for quick tipping. Performers can also
+          generate a unique QR code, which givers can scan to tip them without
+          installing the app.
+        </p>
+        <p>
+          Key features of the app include quick registration with Google and
+          Facebook accounts, the ability for performers to add their story and
+          name their performances, and the option for givers to specify default
+          donation amounts. The app also utilizes iBeacon BLE technology for
+          proximity detection, ensuring that givers receive notifications when
+          they are near a performer. Additionally, Onesignal push notifications
+          are used to notify performers of each donation, and givers can view
+          all their donations in the app.
+        </p>
+        <p>
+          Overall, the app provides a seamless and efficient way for street
+          performers to collect tips and donations, while also ensuring that
+          donors always have a way to give, even if they don't have cash on
+          hand. The use of cutting-edge technologies and a user-friendly
+          interface makes this app a game-changer for street performers and
+          donors alike.
+        </p>
+      </div>
+    ),
+  },
 ];

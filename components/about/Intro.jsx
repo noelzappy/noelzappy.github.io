@@ -8,18 +8,10 @@ const Intro = () => {
     text: (
       <>
         <p>
-          Hi, I'm Emmanuel Yeboah a seasoned Full Stack developer with over four
-          years of experience. I'm skilled in JavaScript, TypeScript, and
-          GoLang.
+        Hi, I'm Emmanuel Yeboah a seasoned Full Stack developer with over four years of experience. I'm skilled in JavaScript, TypeScript, and GoLang.
         </p>
         <p>
-          I excels in building efficient and user-friendly mobile and web
-          applications using React Native and ReactJS. With a strong grasp of
-          REST APIs, I seamlessly integrates frontend and backend technologies.
-          I am adept at architecting software designs aligned with business
-          goals, delivering high-quality work, and staying updated with industry
-          trends. I thrives on problem-solving and has a proven track record of
-          developing complex software for organizations.
+        I excel in building efficient and user-friendly mobile and web applications using React Native and ReactJS. With a strong grasp of REST APIs, I seamlessly integrate frontend and backend technologies. I am adept at architecting software designs aligned with business goals, delivering high-quality work, and staying updated with industry trends. I thrive on problem-solving and have a proven track record of developing complex software for organizations.
         </p>
       </>
     ),

@@ -28,7 +28,7 @@ const Resume = () => {
         },
         {
           id: 2,
-          year: "2022 - NOW",
+          year: "2022 - 2024",
           institute: "Built Financial Technologies",
           degree: "Senior Mobile Developer",
         },

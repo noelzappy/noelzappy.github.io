@@ -93,6 +93,9 @@ const Portfolio = () => {
                           data-for={item.title}
                           data-tooltip-id={item.title}
                           onClick={() => setSelectedProject(item)}
+                          style={{
+                            objectFit: "contain",
+                          }}
                         />
 
                         <ReactTooltip

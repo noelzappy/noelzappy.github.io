@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Social from "../../Social";
 
 const ModalOne = ({ project }) => {
@@ -5,7 +6,6 @@ const ModalOne = ({ project }) => {
     <div className="box_inner">
       <div className="description_wrap scrollable">
         <div className="image">
-          <img src="/img/thumbs/4-3.jpg" alt="tumb" />
           <div
             className="main"
             style={{
@@ -75,6 +75,7 @@ const ModalOne = ({ project }) => {
                       className="main"
                       style={{
                         backgroundImage: `url(${img})`,
+                        backgroundSize: "contain",
                       }}
                     ></div>
                   </div>

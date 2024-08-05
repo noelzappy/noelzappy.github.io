@@ -566,4 +566,61 @@ module.exports = [
       </div>
     ),
   },
+
+  {
+    id: 9,
+    title: "Built.Africa",
+    img: "/img/portfolio/built-1.png",
+    mainImage: "/img/portfolio/built-1.png",
+    category: "Web App",
+    cat: ["web"],
+    images: [
+      "/img/portfolio/built-1.png",
+      "/img/portfolio/built-2.png",
+      "/img/portfolio/built-3.png",
+    ],
+    poster: "Emmanuel Yeboah",
+    client: "Built Financial Tech.",
+    links: [
+      {
+        name: "Website",
+        url: "https://built.africa/",
+      },
+    ],
+    videos: [],
+    stack: ["React", "NextJs"],
+
+    descriptions: (
+      <div className="descriptions">
+        <p className="bigger">
+          I contributed to the development Built Financial Technologies'
+          website, a company of chartered accountants, finance analysts,
+          developers, and marketers dedicated to fostering prosperity among SMEs
+          in Africa. This landing page serves as the digital face of the
+          company, providing essential information about Built Financial
+          Technologies' services, team, and mission.
+        </p>
+        <p>
+          Key features of the website include a clean, professional design that
+          reflects the company's expertise and commitment to SME growth. The
+          site offers detailed information about Built Financial Technologies'
+          range of services, showcasing how they support businesses through
+          accounting, financial analysis, and technological solutions. Visitors
+          can easily navigate through sections detailing the company's
+          background, team profiles, and contact information.
+        </p>
+        <p>
+          The website is designed to be user-friendly and informative, allowing
+          potential clients to quickly understand the value Built Financial
+          Technologies brings to SMEs in Africa. It highlights the company's
+          unique blend of financial expertise and technological innovation,
+          emphasizing their passion for driving economic growth through
+          empowering small and medium enterprises. The site also serves as a
+          platform for SMEs to connect with Built Financial Technologies,
+          featuring clear calls-to-action and contact forms to facilitate
+          engagement.
+        </p>
+      </div>
+    ),
+  },
 ];

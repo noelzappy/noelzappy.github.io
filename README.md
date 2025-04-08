@@ -1,3 +1,3 @@
-[Click Here](https://noelzappy.vercel.app/)
+[Click Here](https://noelzappy.dev/)
 
-[Emmanuel Yeboah](https://noelzappy.vercel.app/)
+[Emmanuel Yeboah](https://noelzappy.dev/)
